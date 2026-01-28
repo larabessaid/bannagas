@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "5e5573b8b5e0b0fe8cda",
+  "displayName": "Página otra",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

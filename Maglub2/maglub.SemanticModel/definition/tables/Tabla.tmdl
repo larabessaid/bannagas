@@ -1,0 +1,18 @@
+table Tabla
+	lineageTag: 58a34352-8b87-46b1-9932-c2dc1810d2be
+
+	column Value
+		formatString: 0
+		lineageTag: 0d20ef3e-8b46-4ac6-93e0-4421cc672dc0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Tabla = calculated
+		mode: import
+		source = GENERATESERIES(1,100,2)
+
+	annotation PBI_Id = 08817fb835c54d03af9d279dc7909daa
+
